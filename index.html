@@ -1,0 +1,149 @@
+<html>
+<head>
+<style>
+.header{
+ background-color:linen;
+ padding:20px;
+}
+.image {
+background-image:url('background.jpg');
+padding :200px;
+background-size:cover
+}
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+
+.content {
+background-color:black;
+opacity:0.80;
+border:10px;
+border-style:ridge black;
+font-family:algerian, arial, "times new roman";
+padding:20px;
+color:cyan;
+text-align:center;
+}
+
+
+
+
+nav{
+float:right;
+}
+nav ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+nav li{
+display:inline-block;
+margin-left:70px;
+padding-top:23px;
+position:relative;
+}
+nav a{
+color:#444;
+text-decoration:none;
+text-transform:uppercase;
+font-size:14px;
+}
+nav a:hover{
+color:#000;
+}
+nav a::before{
+content:";
+display:block;
+height:5px;
+background-color:#444;
+
+position:absolute;
+top:0;
+width:0%;
+transition:all ease-in-out 250ms;
+}
+nav a:hover::before{
+width:100%;
+}
+
+
+
+
+
+
+.wrapper{
+ padding:50px;
+ text-align:center;
+ width:400px;
+ height:2500px;
+ box-sizing:border-box;
+ opacity:0.9;
+}
+.footer {
+ background-color:LightSkyBlue
+ padding:10px;
+ text-align:center;
+ font-size:20px
+ color:black;
+}
+</style>
+<table align="center">
+
+<tr>
+
+<td style=color:red;padding:10px"><a href="index.html"><h3>HOME</h3></td>
+
+<td style=color:red;padding:10px"><a href="2nd page.html"><h3>BITCOIN</h3></td>
+
+<td style=color:red;padding:10px"><a href="3rd page.html"><h3>ETHEREUM</h3></td>
+
+<td style=color:red;padding:10px"><a href="4th page.html"><h3>DOGECOIN</h3></td>
+
+<td style=color:red;padding:10px"><a href="5th page.html"><h3>RECAP</h3></td>
+
+<td style=color:red;padding:10px"><a href="6th page.html"><h3>CONTACT US</h3></td>
+</tr>
+
+</table>
+<body>
+<div class="image">
+<h1 class="content" align="center">Cryptocurrency</h1>
+<center>
+<div class="wrapper">
+ <h1 style="font-size:30px;">what is cryptocurrency?</h1>
+ <p style="font-size:30px;">A cryptocurrency, crypto-currency, or crypto is a digital asset designed to work as a medium of exchange
+ where in individual coin ownership records are stored in a ledger
+ existing in a form of a computerized </p>
+<h2 style="font-size:30px;">why should u invest in cryprtocurrencies?</h2>
+<p style="font-size:30px;">common reason to invest in cryptocurrency is the desire for a reliable,
+ long-term store of value.
+ Unlike fiat money, most cryptocurrencies have a limited supply,
+ capped by mathematical algorithms.
+ This makes it impossible for any political body 
+ or government agency to dilute their value through inflation.
+</p>
+<h4 style="font-size:30px;">is cryptocurruncies safe to invest your money in?</h4>
+<p style="font-size:30px;"> Investments are always risky, but some experts say cryptocurrency
+  is one of the riskier investment choices out there, according to Consumer Reports.
+  However, digital currencies are also some of the hottest commodities.</p>
+</center>
+<div class="zoom">
+<img src="bitcoin.jpg"/>
+</div>
+<div class="footer">
+<center>
+<br>
+<br>
+<p>To know more about cryptocurrency click..
+<a href="https://en.wikipedia.org/wiki/Cryptocurrency">here</a></p>
+</center>
+</div>
+</body>
+</html>
